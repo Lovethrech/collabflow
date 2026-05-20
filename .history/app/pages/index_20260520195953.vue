@@ -7,8 +7,7 @@ useSeoMeta({
     description
 })
 
-import {ref} from "vue";
-import {useRouter} from "vue-router";
+import {ref} from "vue"
 </script>
 
 <template>

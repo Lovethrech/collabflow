@@ -1,4 +1,5 @@
 <script setup>
+
 const title = 'Auth | Chel CollabFlow'
 const description = ''
 
@@ -6,9 +7,6 @@ useSeoMeta({
     title,
     description
 })
-
-import {ref} from "vue";
-import {useRouter} from "vue-router";
 </script>
 
 <template>

@@ -6,9 +6,6 @@ useSeoMeta({
     title,
     description
 })
-
-import {ref} from "vue";
-import {useRouter} from "vue-router";
 </script>
 
 <template>
