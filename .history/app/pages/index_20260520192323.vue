@@ -9,7 +9,7 @@ useSeoMeta({
 </script>
 
 <template>
-    <div class="auth-page flex-center-center">
+    <div class="auth-page">
         <div class="auth-card">
             <div class="auth-title-ctn">
                 <img src="/ChelModernLogo.svg" alt="">
@@ -50,8 +50,8 @@ useSeoMeta({
 </template>
 
 <style scoped>
-.auth-card{
-    background-color: #000000;
+.auth-page{
+    
 }
 .auth-title-ctn{
 

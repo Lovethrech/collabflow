@@ -24,10 +24,6 @@ body {
     line-height: 2;
 }
 
-#app{
-    min-height: 100vh;
-}
-
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -56,5 +52,5 @@ body {
 .flex-center-center{
     display: flex;
     place-items: center;
-    justify-content: center;
+    
 }

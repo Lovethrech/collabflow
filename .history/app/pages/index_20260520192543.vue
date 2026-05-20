@@ -50,7 +50,7 @@ useSeoMeta({
 </template>
 
 <style scoped>
-.auth-card{
+.auth-page{
     background-color: #000000;
 }
 .auth-title-ctn{
