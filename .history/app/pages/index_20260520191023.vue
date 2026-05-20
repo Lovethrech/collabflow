@@ -17,17 +17,14 @@ useSeoMeta({
             </p>
             <form @submit.prevent="">
                 <div class="auth-form-label-and-input-ctn">
-                    <label for="email">
-                        Email:
-                    </label>
-                    <input
-                        v-model="email"
-                        type="email"
-                        placeholder="Email address"
-                        requires
-                    />
+                    <label for="email"></label>
                 </div>
-                
+                <input
+                    v-model="email"
+                    type="email"
+                    placeholder="Email address"
+                    requires
+                />
             </form>
         </div>
     </div>

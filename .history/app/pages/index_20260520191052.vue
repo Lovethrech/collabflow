@@ -20,7 +20,7 @@ useSeoMeta({
                     <label for="email">
                         Email:
                     </label>
-                    <input
+                        <input
                         v-model="email"
                         type="email"
                         placeholder="Email address"

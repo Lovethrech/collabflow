@@ -21,11 +21,11 @@ useSeoMeta({
                         Email:
                     </label>
                     <input
-                        v-model="email"
-                        type="email"
-                        placeholder="Email address"
-                        requires
-                    />
+                    v-model="email"
+                    type="email"
+                    placeholder="Email address"
+                    requires
+                />
                 </div>
                 
             </form>

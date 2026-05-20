@@ -16,18 +16,10 @@ useSeoMeta({
                 Real-time Team Workspace
             </p>
             <form @submit.prevent="">
-                <div class="auth-form-label-and-input-ctn">
-                    <label for="email">
-                        Email:
-                    </label>
-                    <input
-                        v-model="email"
-                        type="email"
-                        placeholder="Email address"
-                        requires
-                    />
-                </div>
-                
+                <input
+                    v-model="email"
+                    type=""
+                />
             </form>
         </div>
     </div>
