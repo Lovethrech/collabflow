@@ -14,18 +14,16 @@ const password=ref("");
 const loading=ref(false);
 
 const handleLogin=async()=>{
-    if ((email.value !=="") && (password.value !== "")){
-        loading.value = true;
-        console.log("Login attempt: ", email.value)
+    if ((email.value !=="") || (password.value !== "")){
+        
+    }
+    loading.value = true;
+    console.log("Login attempt: ", email.value)
 
-        setTimeout(()=>{
-            router.push('/dashboard')
-            loading.value=false
-        }, 800)
-    }
-    else{
-        loading.value= false;
-    }
+    setTimeout(()=>{
+        router.push('/dashboard')
+        loading.value=false
+    }, 800)
 }
 </script>
 

@@ -14,8 +14,8 @@ const password=ref("");
 const loading=ref(false);
 
 const handleLogin=async()=>{
-    if ((email.value !=="") && (password.value !== "")){
-        loading.value = true;
+    if ((email.value !=="") || (password.value !== "")){
+            loading.value = true;
         console.log("Login attempt: ", email.value)
 
         setTimeout(()=>{
@@ -23,9 +23,7 @@ const handleLogin=async()=>{
             loading.value=false
         }, 800)
     }
-    else{
-        loading.value= false;
-    }
+    
 }
 </script>
 

@@ -14,18 +14,13 @@ const password=ref("");
 const loading=ref(false);
 
 const handleLogin=async()=>{
-    if ((email.value !=="") && (password.value !== "")){
-        loading.value = true;
-        console.log("Login attempt: ", email.value)
+    loading.value = true;
+    console.log("Login attempt: ", email.value)
 
-        setTimeout(()=>{
-            router.push('/dashboard')
-            loading.value=false
-        }, 800)
-    }
-    else{
-        loading.value= false;
-    }
+    setTimeout(()=>{
+        router.push('/dashboard')
+        loading.value=false
+    }, 8000)
 }
 </script>
 
@@ -41,7 +36,7 @@ const handleLogin=async()=>{
             </p>
             <br/>
             <br/>
-            <form @submit.prevent="handleLogin">
+            <form @submit.prevent="">
                 <div class="auth-form-label-and-input-ctn flex-column">
                     <label for="email">
                         Email:
