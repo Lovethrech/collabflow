@@ -2,11 +2,5 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  css:["./app/assets/css/main.css"],
-  future:{
-    compatibilityVersion: 4
-  },
-  routeRules: {
-    '/': { prerender: true }
-  }
+  css:["./app/assets/"]
 })
