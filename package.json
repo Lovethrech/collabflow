@@ -10,8 +10,16 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.106.1",
+    "date-fns": "^4.2.1",
+    "lucide-vue-next": "^1.0.0",
     "nuxt": "^4.4.6",
+    "sortablejs": "^1.15.7",
     "vue": "^3.5.34",
     "vue-router": "^5.0.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15"
   }
 }
