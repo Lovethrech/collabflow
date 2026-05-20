@@ -60,7 +60,7 @@ useSeoMeta({
 .auth-card{
     background-color: #0000007e;
     width: 40%;
-    padding: 5vh;
+    padding: 5vh 3vh;
 }
 .auth-title-ctn{
     justify-content: center;
@@ -72,15 +72,9 @@ useSeoMeta({
 .auth-title-ctn img{
     width: 10vh;
 }
-.auth-form-label-and-input-ctn{
-    margin: 2vh 0;
-}
 .auth-form-label-and-input-ctn input{
     background-color: transparent;
-    color: #ffffff;
-    padding: 1vh;
-    font-size: 2.2vh;
     border:0;
-    border-bottom: 0.1vh solid #ffffff;
+    
 }
 </style>

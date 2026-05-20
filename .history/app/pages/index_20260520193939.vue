@@ -21,7 +21,7 @@ useSeoMeta({
             <br/>
             <br/>
             <form @submit.prevent="">
-                <div class="auth-form-label-and-input-ctn flex-column">
+                <div class="auth-form-label-and-input-ctn">
                     <label for="email">
                         Email:
                     </label>
@@ -32,7 +32,7 @@ useSeoMeta({
                         requires
                     />
                 </div>
-                <div class="auth-form-label-and-input-ctn flex-column">
+                <div class="auth-form-label-and-input-ctn">
                     <label for="password">
                         Password:
                     </label>
@@ -43,7 +43,6 @@ useSeoMeta({
                         requires
                     />
                 </div>
-                <br/>
                 <button type="submit" class="btn btn-primary" :disabled="loading">
                     {{loading? "Signing in ..." : "Sign In"}}
                 </button>
@@ -60,7 +59,7 @@ useSeoMeta({
 .auth-card{
     background-color: #0000007e;
     width: 40%;
-    padding: 5vh;
+    padding: 5vh 3vh;
 }
 .auth-title-ctn{
     justify-content: center;
@@ -73,14 +72,6 @@ useSeoMeta({
     width: 10vh;
 }
 .auth-form-label-and-input-ctn{
-    margin: 2vh 0;
-}
-.auth-form-label-and-input-ctn input{
-    background-color: transparent;
-    color: #ffffff;
-    padding: 1vh;
-    font-size: 2.2vh;
-    border:0;
-    border-bottom: 0.1vh solid #ffffff;
+    
 }
 </style>

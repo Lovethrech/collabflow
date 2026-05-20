@@ -64,7 +64,7 @@ body {
 }
 .flex-column{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .full-width-height{
     width: 100%;

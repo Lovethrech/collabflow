@@ -79,7 +79,7 @@ useSeoMeta({
     background-color: transparent;
     color: #ffffff;
     padding: 1vh;
-    font-size: 2.2vh;
+    font-size: 2.4vh;
     border:0;
     border-bottom: 0.1vh solid #ffffff;
 }

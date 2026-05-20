@@ -62,9 +62,9 @@ body {
     display: flex;
     flex-direction: row;
 }
-.flex-column{
+.flex-row{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .full-width-height{
     width: 100%;
