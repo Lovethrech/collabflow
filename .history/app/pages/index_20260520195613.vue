@@ -44,7 +44,7 @@ useSeoMeta({
                     />
                 </div>
                 <br/>
-                <button type="submit" class="btn btn-primary full-width-height" :disabled="loading">
+                <button type="submit" class="btn btn-primary" :disabled="loading">
                     {{loading? "Signing in ..." : "Sign In"}}
                 </button>
             </form>
@@ -68,7 +68,7 @@ useSeoMeta({
 .title-desc{
     text-align: center;
     letter-spacing: 2vh;
-    font-size: 1.4vh;
+    font-size: 
 }
 .auth-title-ctn img{
     width: 10vh;

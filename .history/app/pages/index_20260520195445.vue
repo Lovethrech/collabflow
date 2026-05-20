@@ -44,7 +44,7 @@ useSeoMeta({
                     />
                 </div>
                 <br/>
-                <button type="submit" class="btn btn-primary full-width-height" :disabled="loading">
+                <button type="submit" class="btn btn-primary" :disabled="loading">
                     {{loading? "Signing in ..." : "Sign In"}}
                 </button>
             </form>
@@ -68,7 +68,6 @@ useSeoMeta({
 .title-desc{
     text-align: center;
     letter-spacing: 2vh;
-    font-size: 1.4vh;
 }
 .auth-title-ctn img{
     width: 10vh;
@@ -88,9 +87,10 @@ useSeoMeta({
 @media screen and (max-width: 950px){
     .auth-card{
         width: 90%;
-        padding: 3vh;
+        padding: 5vh;
     }
     .auth-title-ctn{
+        background-color: red;
         flex-direction: column;
     }
     .auth-title-ctn img{
@@ -98,9 +98,6 @@ useSeoMeta({
     }
     .auth-title-ctn h1{
         text-align: center;
-    }
-    .title-desc{
-        font-size:1.2vh;
     }
 }
 </style>

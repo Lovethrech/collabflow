@@ -44,7 +44,7 @@ useSeoMeta({
                     />
                 </div>
                 <br/>
-                <button type="submit" class="btn btn-primary full-width-height" :disabled="loading">
+                <button type="submit" class=" btn btn-primary" :disabled="loading">
                     {{loading? "Signing in ..." : "Sign In"}}
                 </button>
             </form>
