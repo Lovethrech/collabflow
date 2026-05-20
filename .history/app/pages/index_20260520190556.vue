@@ -4,7 +4,8 @@ const description = ''
 
 useSeoMeta({
     title,
-    description
+    description,
+
 })
 </script>
 

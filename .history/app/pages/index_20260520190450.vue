@@ -1,12 +1,4 @@
-<script setup>
-const title = 'Auth | Chel CollabFlow'
-const description = ''
 
-useSeoMeta({
-    title,
-    description
-})
-</script>
 
 <template>
     <div class="auth-page">

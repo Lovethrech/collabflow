@@ -1,10 +1,14 @@
 <script setup>
-const title = 'Auth | Chel CollabFlow'
+const title = 'Chel CollabFlow'
 const description = ''
 
 useSeoMeta({
-    title,
-    description
+  title,
+  description,
+  ogTitle: title,
+  ogDescription: description,
+  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
+  twitterCard: 'summary_large_image'
 })
 </script>
 
