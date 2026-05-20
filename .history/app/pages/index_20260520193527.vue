@@ -18,8 +18,6 @@ useSeoMeta({
             <p class="title-desc">
                 Real-time Team Workspace
             </p>
-            <br/>
-            <br/>
             <form @submit.prevent="">
                 <div class="auth-form-label-and-input-ctn">
                     <label for="email">
@@ -59,7 +57,7 @@ useSeoMeta({
 .auth-card{
     background-color: #0000007e;
     width: 40%;
-    padding: 5vh 3vh;
+    padding: 2vh;
 }
 .auth-title-ctn{
     justify-content: center;

@@ -19,7 +19,6 @@ useSeoMeta({
                 Real-time Team Workspace
             </p>
             <br/>
-            <br/>
             <form @submit.prevent="">
                 <div class="auth-form-label-and-input-ctn">
                     <label for="email">
