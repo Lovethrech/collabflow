@@ -1,0 +1,3 @@
+<template>
+    < classauth-page
+</template>
