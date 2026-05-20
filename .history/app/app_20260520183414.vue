@@ -11,7 +11,7 @@ useHead({
   }
 })
 
-const title = 'Chel CollabFlow'
+const title = 'CollabFlow'
 const description = ''
 
 useSeoMeta({
@@ -23,6 +23,7 @@ useSeoMeta({
   twitterCard: 'summary_large_image'
 })
 </script>
+
 
 <template>
   <div>

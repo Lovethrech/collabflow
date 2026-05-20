@@ -11,7 +11,7 @@ useHead({
   }
 })
 
-const title = 'Chel CollabFlow'
+const title = 'RGSM Dashboard'
 const description = ''
 
 useSeoMeta({
@@ -24,8 +24,10 @@ useSeoMeta({
 })
 </script>
 
+
 <template>
   <div>
-    
+    <NuxtRouteAnnouncer />
+    <NuxtWelcome />
   </div>
 </template>
