@@ -60,7 +60,7 @@ useSeoMeta({
     padding: 2vh;
 }
 .auth-title-ctn{
-    justify-content: center;
+    padding: 0 auto;
 }
 .auth-title-ctn img{
     width: 10vh;

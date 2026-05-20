@@ -57,12 +57,9 @@ useSeoMeta({
 .auth-card{
     background-color: #0000007e;
     width: 60%;
-    padding: 2vh;
-}
-.auth-title-ctn{
-    justify-content: center;
+    padding: 
 }
 .auth-title-ctn img{
-    width: 10vh;
+    width: 2vh;
 }
 </style>

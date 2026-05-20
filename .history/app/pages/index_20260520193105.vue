@@ -59,10 +59,7 @@ useSeoMeta({
     width: 60%;
     padding: 2vh;
 }
-.auth-title-ctn{
-    justify-content: center;
-}
 .auth-title-ctn img{
-    width: 10vh;
+    width: 8vh;
 }
 </style>

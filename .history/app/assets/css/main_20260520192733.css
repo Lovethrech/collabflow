@@ -58,11 +58,4 @@ body {
     place-items: center;
     justify-content: center;
 }
-.flex-row{
-    display: flex;
-    flex-direction: row;
-}
-.full-width-height{
-    width: 100%;
-    height: 100vh; 
-}
+.flex-row

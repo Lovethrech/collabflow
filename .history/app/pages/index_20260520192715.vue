@@ -11,7 +11,7 @@ useSeoMeta({
 <template>
     <div class="auth-page flex-center-center">
         <div class="auth-card">
-            <div class="auth-title-ctn flex-row">
+            <div class="auth-title-ctn">
                 <img src="/ChelModernLogo.svg" alt="">
                 <h1>CollabFlow</h1>
             </div>
@@ -50,19 +50,10 @@ useSeoMeta({
 </template>
 
 <style scoped>
-.auth-page{
-    width: 100%;
-    height: 100vh; 
-}
 .auth-card{
-    background-color: #0000007e;
-    width: 60%;
-    padding: 2vh;
+    background-color: #000000;
 }
 .auth-title-ctn{
-    justify-content: center;
-}
-.auth-title-ctn img{
-    width: 10vh;
+    
 }
 </style>

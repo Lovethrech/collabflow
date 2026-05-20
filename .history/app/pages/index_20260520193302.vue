@@ -65,4 +65,5 @@ useSeoMeta({
 .auth-title-ctn img{
     width: 10vh;
 }
+
 </style>
