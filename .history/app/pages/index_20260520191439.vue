@@ -38,14 +38,8 @@ useSeoMeta({
                         requires
                     />
                 </div>
-                <button type="submit" class="btn btn-primary" :disabled="loading">
-                    {{loading? "Signing in ..." : "Sign In"}}
-                </button>
+                <button type="submit" class="btn"></button>
             </form>
         </div>
     </div>
 </template>
-
-<style scoped>
-
-</style>

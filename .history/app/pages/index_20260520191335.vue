@@ -33,19 +33,12 @@ useSeoMeta({
                     </label>
                     <input
                         v-model="password"
-                        type="password"
-                        placeholder="Password"
+                        type="pasword"
+                        placeholder="Email address"
                         requires
                     />
                 </div>
-                <button type="submit" class="btn btn-primary" :disabled="loading">
-                    {{loading? "Signing in ..." : "Sign In"}}
-                </button>
             </form>
         </div>
     </div>
 </template>
-
-<style scoped>
-
-</style>

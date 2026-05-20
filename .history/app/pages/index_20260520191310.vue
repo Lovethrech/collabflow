@@ -28,24 +28,17 @@ useSeoMeta({
                     />
                 </div>
                 <div class="auth-form-label-and-input-ctn">
-                    <label for="password">
+                    <label for="email">
                         Password:
                     </label>
                     <input
-                        v-model="password"
-                        type="password"
-                        placeholder="Password"
+                        v-model="email"
+                        type="email"
+                        placeholder="Email address"
                         requires
                     />
                 </div>
-                <button type="submit" class="btn btn-primary" :disabled="loading">
-                    {{loading? "Signing in ..." : "Sign In"}}
-                </button>
             </form>
         </div>
     </div>
 </template>
-
-<style scoped>
-
-</style>
